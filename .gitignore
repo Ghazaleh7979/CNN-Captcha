@@ -1,6 +1,19 @@
+# Python
 venv/
 __pycache__/
+*.pyc
+
+# ML / Keras
 *.h5
 *.keras
-.env
+
+# VS Code
+.vscode/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
