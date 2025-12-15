@@ -50,7 +50,7 @@ def miniCNN():
     net.compile(loss = "categorical_crossentropy", optimizer= "sgd", metrics= ["accuracy"])
     return net
 
-
+ 
 def show_learning_curve(H) :
     plt.plot(H.history["accuracy"], label = "train accuracy")
     plt.plot(H.history["val_accuracy"], label = "test accuracy")
