@@ -28,6 +28,7 @@ for i in range(len(cnts)):
     print(max_index)
     
     cv2.rectangle(img, (x-10,y-10), (x+w+5, y+h+5), (100,0,100), 2)
+    cv2.putText(img, str(max_index), (x, y -10), cv2.FONT_HERSHEY_SIMPLEX, 0.95, (0,255,0), 2)
 
 cv2.imshow("image", img)
 cv2.waitKey(0)      
